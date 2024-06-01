@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+header {
+  padding: 10px 0;
+}
+
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-center {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.header-center p {
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header-center p:hover {
+  color: red;
+}
+
+.header-right button {
+  background-color: transparent;
+  padding: 15px 30px;
+  border: 2px solid red;
+  border-radius: 5px;
+  color: red;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.header-right button :hover {
+  color: white;
+}
+
+/* Hero Styles  */
+
+.hero {
+  background-image: url("./bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-parent {
+  padding-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.hero-left button {
+  background-color: red;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+/* Xizmatlar Styles  */
+
+.xizmatlar {
+  padding: 80px 0;
+}
+
+.xizmatlar-title {
+  font-size: 40px;
+  text-align: center;
+}
+
+.xizmatlar-parent {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Contact Sytles  */
+
+.contact {
+  background-color: aquamarine;
+  padding: 80px 0;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.contact-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact-right {
+  background-color: white;
+  height: 450px;
+  width: 600px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-right input {
+  width: 100%;
+  height: 60px;
+  padding: 0 30px;
+}
+
+.contact-right button {
+  height: 60px;
+  width: 100%;
+  background-color: greenyellow;
+  border-radius: 5px;
+}
+
+/* Footer Styles  */
+
+footer {
+  padding: 10px 0;
+  color: white;
+  background-color: black;
+}
+
+.footer-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-right {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-right a {
+  color: white;
+  text-decoration: none;
+}
